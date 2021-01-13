@@ -1,8 +1,9 @@
 import React from 'react';
+import {StyledFaq} from '../Styles';
 
 const FaqSection = () => {
     return (
-        <div className="faq">
+        <StyledFaq>
             <h2>Any Questions <span>FAQ</span></h2>
             <div className="question">
                 <h4>How Do I Start ?</h4>
@@ -10,6 +11,7 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor sit amet.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate.</p>
                 </div>
+                <div className="faq-line"></div>
             </div>
             <div className="question">
                 <h4>Daily Schedule</h4>
@@ -17,6 +19,7 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor sit amet.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate.</p>
                 </div>
+                <div className="faq-line"></div>
             </div>
             <div className="question">
                 <h4>Diferrent Payment Methods</h4>
@@ -24,6 +27,7 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor sit amet.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate.</p>
                 </div>
+                <div className="faq-line"></div>
             </div>
             <div className="question">
                 <h4>What Products do you offer?</h4>
@@ -31,8 +35,9 @@ const FaqSection = () => {
                     <p>Lorem ipsum dolor sit amet.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate.</p>
                 </div>
+                <div className="faq-line"></div>
             </div>
-        </div>
+        </StyledFaq>
     );
 }
 
