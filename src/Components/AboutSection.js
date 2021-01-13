@@ -1,10 +1,13 @@
 import React from 'react';
 //import images
 import home1 from '../img/home1.png';
+//Import Framer Motion
+import {motion, transform} from 'framer-motion';
 //Import Styled Components
 import {StyledAbout, StyledDescription, StyledImage, StyledHide} from '../Styles';
 
 const AboutSection = () => {
+
     return (
         <StyledAbout>
             <StyledDescription>
@@ -13,7 +16,7 @@ const AboutSection = () => {
                         <h2>We work to make</h2>
                     </StyledHide>
                     <StyledHide>
-                        <h2>your <span>dreams</span> come</h2>
+                        <h2> your <span>dreams</span> come</h2>
                     </StyledHide>
                     <StyledHide>
                         <h2>true</h2>
