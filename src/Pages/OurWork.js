@@ -12,7 +12,7 @@ import {PageAnimation} from './Animation';
 
 const OurWork = () => {
     return (
-        <StyledWork variants={PageAnimation} initial="hidden" animate="show" exit="exit">
+        <StyledWork variants={PageAnimation} initial="hidden" animate="show" exit="exit" style={{background: "#fff"}}>
             <StyledMovie>
                 <h2>The athlete</h2>
                 <div className="line"></div>
@@ -53,7 +53,7 @@ const StyledMovie = styled.div`
     padding-bottom : 10rem;
     .line {
         height : 0.5rem;
-        background : #cccccc;
+        background : #23d997;
         margin-bottom : 3rem;
     }
     img {
